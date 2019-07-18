@@ -21,16 +21,20 @@ Load from public/cities.json
 
 ### Step 2
 
-On dropdown change load get current city weather and show panel.
+On dropdown change get selected city and for that cityt load weather and show panel with weather details.
+
 Load from: http://api.openweathermap.org/data/2.5/weather?id=[city id from Step #1]&appid=a30f79a44d74a7b2c4c8f414d958a23e
 ex: [http://api.openweathermap.org/data/2.5/weather?id=524901&appid=a30f79a44d74a7b2c4c8f414d958a23e](http://api.openweathermap.org/data/2.5/weather?id=524901&appid=a30f79a44d74a7b2c4c8f414d958a23e) 
 
 ### Step 3
 
 On click on 5 day forecast button get forecast and render table.
+
 Load from: http://api.openweathermap.org/data/2.5/forecast?id=[city id from Step #1]&appid=a30f79a44d74a7b2c4c8f414d958a23e
 ex: [http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=a30f79a44d74a7b2c4c8f414d958a23e](http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=a30f79a44d74a7b2c4c8f414d958a23e)
 
+### Step 4
 
+Add close button to forecast panel that works.
 
 
