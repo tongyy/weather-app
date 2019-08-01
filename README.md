@@ -28,13 +28,20 @@ ex: [http://api.openweathermap.org/data/2.5/weather?id=524901&appid=a30f79a44d74
 
 ### Step 3
 
-On click on 5 day forecast button get forecast and render table.
-
-Load from: http://api.openweathermap.org/data/2.5/forecast?id=[city id from Step #1]&appid=a30f79a44d74a7b2c4c8f414d958a23e
-ex: [http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=a30f79a44d74a7b2c4c8f414d958a23e](http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=a30f79a44d74a7b2c4c8f414d958a23e)
+On click on 5 day forecast button render empty panel where 5 day forecast will be.
 
 ### Step 4
 
-Add close button to forecast panel that works.
+Add close button to forecast panel that closes the panel.
+
+### Step 5
+
+Load from: http://api.openweathermap.org/data/2.5/forecast?id=[city id from Step #1]&appid=a30f79a44d74a7b2c4c8f414d958a23e
+ex: [http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=a30f79a44d74a7b2c4c8f414d958a23e](http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=a30f79a44d74a7b2c4c8f414d958a23e) and display as frid in the panel created in step #3.
+
+### Step 6
+
+Add paging to the grid created in Step #6.
+
 
 
