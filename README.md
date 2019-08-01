@@ -37,7 +37,7 @@ Add close button to forecast panel that closes the panel.
 ### Step 5
 
 Load from: http://api.openweathermap.org/data/2.5/forecast?id=[city id from Step #1]&appid=a30f79a44d74a7b2c4c8f414d958a23e
-ex: [http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=a30f79a44d74a7b2c4c8f414d958a23e](http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=a30f79a44d74a7b2c4c8f414d958a23e) and display as frid in the panel created in step #3.
+ex: [http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=a30f79a44d74a7b2c4c8f414d958a23e](http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=a30f79a44d74a7b2c4c8f414d958a23e) and display as grid in the panel created in step #3.
 
 ### Step 6
 
